@@ -86,7 +86,7 @@ hr {
   text-align: right;
   margin-top: 35px;
 }
-.tags li {
+li {
   display: inline-block;
 }
 .meta-details a {
@@ -124,5 +124,29 @@ hr {
   background: #8490ff;
   color: #fff;
   transition: all 0.3s ease 0s;
+}
+/* pagination */
+.blog-pagination {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+.pages li a {
+  text-decoration: none;
+  color: #777;
+  padding: 6px 12px;
+}
+.page-active {
+  border: none;
+}
+.blog-pagination .page-active .page-link {
+  background: #8490ff;
+  color: #fff;
+  border: none;
+  padding: 5px 12px;
+}
+.pages li a:hover {
+  background: #8490ff;
+  transition: all 0.3s ease 0s;
+  color: #fff;
 }
 /* SIDEBAR WIDGET AREA */
